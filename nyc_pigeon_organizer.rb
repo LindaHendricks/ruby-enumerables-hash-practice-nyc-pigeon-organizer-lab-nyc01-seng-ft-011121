@@ -8,7 +8,12 @@ def nyc_pigeon_organizer(data)
      total_nameseach do|name|
      if new_pigeon_list[name] == Nil 
        new_pigeon_list [name] ={}
-     endif new_pigeon_list[name]{col_gdr_liv
+     end
+     if new_pigeon_list[name][col_gdr_liv] == nil 
+       new_pigeon_list[name][col_gdr_liv] = []
+     end 
+     new_pigeon_list[name][col_gdr_liv].push(infos.to_s)
+     
 
   end
 
