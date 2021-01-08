@@ -13,6 +13,11 @@ def nyc_pigeon_organizer(data)
        new_pigeon_list[name][col_gdr_liv] = []
      end 
      new_pigeon_list[name][col_gdr_liv].push(infos.to_s)
+   end
+ end
+ end
+ new_pigeon_list
+ 
      
 
   end
