@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
    value.each do |infos, total_names|
    
      total_names.each do|name|
-     if new_pigeon_list[name] == Nil 
+     if new_pigeon_list[name] == nil 
        new_pigeon_list [name] = {}
      end
      if new_pigeon_list[name][col_gdr_liv] == nil 
