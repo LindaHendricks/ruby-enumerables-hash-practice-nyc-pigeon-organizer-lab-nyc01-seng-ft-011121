@@ -5,7 +5,8 @@ def nyc_pigeon_organizer(data)
  new_pigeon_list = {}
  data.each do |col_gdr_liv, value|
    value.each do |infos, total_names|
-     total_names.each do|name|
+     binding.pry 
+     total_nameseach do|name|
      if new_pigeon_list[name] == Nil 
        new_pigeon_list [name] ={}
      end
